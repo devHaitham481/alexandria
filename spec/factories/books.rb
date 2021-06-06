@@ -1,5 +1,5 @@
 FactoryBot.define do
-  factory :book do
+  factory :book, aliases: [:ruby_microscope] do
     title { "Ruby Under a Microscope" }
     subtitle { "An Illustrated guide to Ruby Internals" }
     isbn_10 { "1594653214" }
@@ -17,7 +17,7 @@ FactoryBot.define do
     isbn_13 {'9780134055549'}
     description {'The Rails Tutorial is great!'}
     released_on {'2013-05-09'}
-    publisher
+    publisher_id { nil } 
     association :author, factory: :michael_hartl
   end
   factory :agile_web_development, class: Book do 

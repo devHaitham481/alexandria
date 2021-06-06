@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :author do
-    given_name { "Pat" }
-    family_name { "Shaughnessy" }
+    given_name {'Pat'}
+    family_name {'Shaughnessy'}
   end
 
   factory :michael_hartl, class: Author do 
