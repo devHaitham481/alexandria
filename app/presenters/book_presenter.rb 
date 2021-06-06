@@ -1,0 +1,3 @@
+class BookPresenter < BasePresenter
+
+end
