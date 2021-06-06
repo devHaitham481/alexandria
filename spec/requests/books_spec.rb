@@ -12,7 +12,6 @@ RSpec.describe 'Books', type: :request do
   # Putting them in an array make it easier to create them in one line
   let(:books) { [ruby_microscope, rails_tutorial, agile_web_dev] }
 
-  let(:json_body) { JSON.parse(response.body) }
 
   describe 'GET /api/books' do
     # Before any test, let's create our 3 books
