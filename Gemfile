@@ -56,3 +56,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "carrierwave", "~> 2.2"
 
 gem "carrierwave-base64", "~> 2.10"
+
+gem "kaminari", "~> 1.2"
